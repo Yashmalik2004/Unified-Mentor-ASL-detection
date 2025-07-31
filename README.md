@@ -16,15 +16,16 @@ The model distinguishes 29 classes: A–Z plus special tokens like `SPACE`, `DEL
 This project uses the **ASL Alphabet** dataset (29 classes) originally from Kaggle (`grassknoted/asl-alphabet`).  
 You need to download and unzip the training data so that the directory structure looks like:
 
-data/
-└── asl_alphabet_train/
-├── A/
-├── B/
-...
-├── Z/
-├── SPACE/
-├── DELETE/
-└── NOTHING/
+- data/
+  - asl_alphabet_train/
+    - A/
+    - B/
+    - ...
+    - Z/
+    - SPACE/
+    - DELETE/
+    - NOTHING/
+
 
 
 ## Getting Started

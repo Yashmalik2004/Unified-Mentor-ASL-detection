@@ -36,7 +36,15 @@ You need to download and unzip the training data so that the directory structure
 git clone https://github.com/Yashmalik2004/Unified-Mentor-ASL-detection
 cd asl-alphabet-detector
 ```
-### 2. Create and Activate Virtual Environment
+### 2. Create the `data` folder
+```bash
+mkdir data
+cd data
+```
+### 3. Download dataset from kaggle and place it into data folder.
+- Download the dataset from [Kaggle ASL Alphabet](https://www.kaggle.com/datasets/grassknoted/asl-alphabet).
+- 
+### 3. Create and Activate Virtual Environment
  ## Windows
 
 ```bash
@@ -51,13 +59,13 @@ python3 -m venv venv
 source venv/bin/activate
 
 ```
-### 3. Install Dependencies
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Train the Model
+### 5. Train the Model
 ## Run the training script (e.g., model.py) which performs:
 
 - Augmentation (rotation, zoom, shift, shear, horizontal flip)
@@ -74,7 +82,7 @@ pip install -r requirements.txt
 python model.py
 ```
 
-### 5. Predict / Inference
+### 6. Predict / Inference
 
 ```bash
 python test_model.py

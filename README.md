@@ -43,7 +43,7 @@ cd data
 ```
 ### 3. Download dataset from kaggle and place it into data folder.
 - Download the dataset from [Kaggle ASL Alphabet](https://www.kaggle.com/datasets/grassknoted/asl-alphabet).
-- 
+
 ### 3. Create and Activate Virtual Environment
  ## Windows
 

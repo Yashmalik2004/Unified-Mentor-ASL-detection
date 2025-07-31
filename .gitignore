@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Byte-compiled / cached
+*.pyc
+*.pyo
+
+# IDE/editor
+.vscode/
+*.swp
+*.swo
+
+# Data (if you don't want to push the full dataset)
+data/
+# If you want to include a small sample, you can instead:
+# data/.gitkeep
+# and add specific data manually.
+
+# Model checkpoints / large binaries
+*.h5
+*.ckpt
+# If you want to version the trained model, consider using Git LFS instead of normal git.
+
+# Matplotlib / output plots
+*.png
+*.jpg
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
